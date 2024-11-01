@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jkm int</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <style>
+    .carousel-caption {
+      padding: 20px;
+      top: 55%;
+      left: 0;
+      text-align: left;
+      position: absolute;
+      transform: translate(0, -60%);
+      color: red;
+    }
+    html{
+      scroll-behavior: smooth;
+    }
+   .hover-card:hover
+    {
+      background-color: darkslategray;
+      transition: background-color 0.4s linear;
+     color: white;
+    }
+   .a-hover:hover
+   {
+     color: red;
+   }
+  </style>
+  <body>
+<!--header-->
+<nav class="navbar navbar-expand-lg bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="homelogo.png" alt="logo" height="30px" ><i style="font-family: Castellar; color: red;font-weight: bold">JKM INT</i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-section">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+           <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+           <li class="nav-item">
+          <a class="nav-link" href="#">Contacts</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--header-->
+
+
+<!--slider-->
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="gun1.png" class="d-block w-100" alt="..." height="700px">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 style="font-size: 70px; font-family: cursive; color: blue">HELLO WELCOME</h1>
+        <p style="font-size: 30px; color: orange; font-weight: bold">Ready to see amazing services we provide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="gun2.png" class="d-block w-100" alt="..." height="700px">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 style="font-size: 70px; font-family: cursive">Join us in our journey</h1>
+        <p style="font-size: 30px; color: white">We will provide you a better service.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="gun3.png" class="d-block w-100" alt="..." height="700px">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 style="font-size: 70px; font-family: cursive">See All our services</h1>
+        <p style="font-size: 30px; color: gold">Thanks and enjoy peace. </p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--slider-->
+
+<!--about section-->
+<div id="about-section" class="container text-center" style="margin-top: 10px">
+  <div class="row" style="height: 400px; width: 100%;">
+    <div class="col">
+      <img src="homelogo.png" class="rounded" alt="" style="width: 100%; height: 400px ">
+    </div>
+    <div class="col">
+      <h1 class="text-start" style="font-weight: bolder; margin-bottom: 40px" >We Create incredible Digital Experience</h1>
+       <p class="text-start" style="margin-bottom: 50px">we are passionate about delivering high-quality, <br>eco-friendly products that inspire and support healthy living
+         <br>Our journey began with a simple idea to create products <br> that make a positive impact on both people and the planet.
+         <br>
+</p>
+<button type="button" class="btn btn-dark" style="bottom: 0;"><a href="#" style="text-decoration: none; color: white">Explore more.</a></button>
+    </div>
+  </div>
+</div>
+<!--about section-->
+<!--porfolio-->
+<div id class="container text-center" style="margin-top: 70px; margin-bottom: 80px; padding-top: 20px; background-image: url('proj.png'); background-size: cover" >
+  <div class="row">
+    <div class="col" style="align-items: center">
+      <p><img src="project.png" alt=""height="50" width="50" ><h1>10+</h1>Projects Completed</p>
+    </div>
+    <div class="col" style="align-items: center">
+      <p><img src="clients.png" alt=""height="50" width="50" ><h1>10+</h1>Satisfied clients</p>
+    </div>
+   <div class="col" style="align-items: center">
+      <p><img src="employee.png" alt=""height="50" width="50" ><h1>4</h1>Employees</p>
+    </div>
+  </div>
+</div>
+<!--porfolio-->
+
+<!--services-->
+<div class="container" style="margin-top: 40px">
+  <div class="d-flex justify-content-between align-items-center "style="margin-bottom: 50px">
+    <span style="font-size: 1.2em;"><h1>Our Services</h1></span>
+    <a href="#"><button type="button" class="btn btn-secondary btn-lg">All services &rarr;</button></a>
+  </div>
+
+  <!-- Cards row -->
+  <div class="row">
+    <!-- First Card -->
+    <div class="col-sm-4 mb-3 mb-sm-0 card-hover">
+      <div class="card hover-card" style="height: 400px">
+        <img src="web.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" style="margin-top: 20px">
+            <a href="#" style="text-decoration: none; color: black">Web development</a>
+          </h5>
+          <p class="card-text">We create websites tailored to your specific needs....</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Card -->
+    <div class="col-sm-4">
+      <div class="card hover-card" style="height: 400px">
+        <img src="consultant%20.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" style="margin-top: 20px">
+            <a href="#" style="text-decoration: none; color: black">IT consultancy</a>
+          </h5>
+          <p class="card-text">We lead the charge in technological advancement, blending deep tech...</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Third Card -->
+    <div class="col-sm-4">
+      <div class="card hover-card" style="height: 400px">
+        <img src="app.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" style="margin-top: 20px">
+            <a href="#" style="text-decoration: none; color: black">App development</a>
+          </h5>
+          <p>We help brands design and build superior mobile apps, enabling seamless user exp...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--services-->
+<!--map-->
+<div class="container-fluid"style="margin-top: 30px">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.8126141495372!2d37.14824177484686!3d0.09690236432188158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1787faed88ffffff%3A0xd0d968c4e5e45fd6!2sUmande%20Shopping%20Centre!5e0!3m2!1sen!2ske!4v1730475363070!5m2!1sen!2ske" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<!--map-->
+<!--footer-->
+<div class="container-fluid text-start" style="height: 300px; background-color: royalblue">
+  <div class="row container" style="margin-left: 100px">
+    <div class="col">
+      <h2 style="margin-top: 10%; color: white">Jkm Int</h2>
+      <p style="margin-top: 10%; color: white; font-size: 20px">We design and develop eye-catching <br> websites that leave a <br>lasting impression on users.</p>
+    </div>
+    <div class="col text-start">
+      <h2 style="margin-top: 10%;margin-bottom: 10%; color: white">Our Services</h2>
+<a href="#" style="color: white; text-decoration: none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">
+  <h3>> Web development</h3>
+</a>
+<a href="#" style="color: white; text-decoration: none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">
+  <h3>> IT Consultancy</h3>
+</a>
+<a href="#" style="color: white; text-decoration: none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">
+  <h3>> App development</h3>
+</a>
+    </div>
+    <div class="col">
+      <h2 style="margin-top: 10%;margin-bottom: 10%; color: white">Contact Us</h2>
+      <a href="mailto:bangbangke254@gmail.com" style="color: white; text-decoration: none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'"><h3>Email Us</h3></a>
+      <a href="tel:+254111739389" style="color: white; text-decoration: none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'"><h3>Call Us</h3></a>
+
+</div>
+  </div>
+  <hr style="color: white">
+  <footer style="margin-left: 10%; color: white">JKM Int </footer>
+</div>
+<!--footer-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
